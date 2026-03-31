@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { calculateNextTarget, DUP_CONFIG, Phase, Exercise } from '@/lib/wokout-logic';
+import { calculateNextTarget, DUP_CONFIG, Phase, Exercise } from '../lib/workout-logic';
 import { ChevronRight, RotateCcw, BrainCircuit, Settings, Plus, Trash2 } from 'lucide-react';
 
 export default function GymApp() {
